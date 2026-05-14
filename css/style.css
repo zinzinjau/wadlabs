@@ -74,5 +74,12 @@ example usage
 using the var keyword */
 
 body{
-color: var(--col-)var(--col-coral) ;
+font-family: 'instrument sans', sans-serif;
+font-size: 12px;
+font-weight:400 ;
+font-style: normal;
+}
+
+h1,h2 {
+    font-family: 'young serif', serif;
 }
