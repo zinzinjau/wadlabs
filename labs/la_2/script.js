@@ -76,7 +76,7 @@ console.log (student_names[3])
 let governers = [
     [47, "johnson sakaja"],
     [1, "abdullswamad sherrif"],
-    {21, "irungu kangata"}
+   // {21, "irungu kangata"}
 ]
 
 // governer of county one is abdull blah blah
