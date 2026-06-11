@@ -139,6 +139,8 @@ console.log(student.attendance)
 
 //array of objects
 
+
+
 let bbit_2b = [
  {adm: 223251 , name : "blessing"},
  {adm: 192997 , name :"blessing"},
