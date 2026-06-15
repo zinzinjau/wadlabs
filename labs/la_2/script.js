@@ -155,3 +155,22 @@ console.log(Object.keys(student))
 console.log(Object.values(student))
 
 console.log(Object.entries(student))
+
+//DOM THINGS
+console.log(document)
+console.log(document)
+
+const heading = document.querySelector("#mainHeading")
+console.log(heading)
+
+const previewImage = document.querySelector("image")
+console.log(previewImage)
+
+const aboutSection = document.getElementById('about')
+console.log(aboutSection)
+
+const allSections = document.querySelectorAll('section');
+console.log(allSections);
+
+const allNavLinks = document.querySelectorAll('nav a');
+console.log(allNavLinks);
