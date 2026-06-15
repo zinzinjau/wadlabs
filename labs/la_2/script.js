@@ -150,15 +150,8 @@ let bbit_2b = [
 ]
 //@TO DO SHOW LOOPING OF OBJECTS
 //print out all names of all students in bbit 2b using a loop
+console.log(Object.keys(student))
 
-//bbit_2b_students.forEach(function(student){
-  //  console.log(student);
-//})
-//getting the keys of an object
-//console.log(students.keys().toArray())
+console.log(Object.values(student))
 
-//getting the keys of an values
-//console.log(students.values().toArray())
-
-//getting the keys of an entries
-//console.log(students.entries().toArray())
+console.log(Object.entries(student))
