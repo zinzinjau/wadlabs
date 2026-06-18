@@ -174,3 +174,51 @@ console.log(allSections);
 
 const allNavLinks = document.querySelectorAll('nav a');
 console.log(allNavLinks);
+
+let aboutParagraph = document.querySelector("#about p");
+
+// change its text
+aboutParagraph.textContent = "This text was changed!";
+aboutParagraph.style.color = "red";
+
+//setteing/ setter - updating the page from js
+//via dom
+previewImage.setAttribute("title", "new title of image");
+previewImage.setAttribute("alt", "new alternive text for the image");
+console.log(previewImage.alt);
+console.log(previewImage.title);
+
+//event handling - events (user eventa - click key events, scroll)
+
+//get the element of interest - button with an id of changetxbutton
+
+let changetxbutton = document.querySelector("#changeTextBtn")
+let demoText = document.querySelector("#demoText")
+//we are handling the click event for the button with an id of changeTextbtn
+changetxbutton.addEventListener("click", function (events){
+    console.log("someone clicked meeee")
+    demoText.textContent = "I have been changed when you clicked"
+    demoText.style.color = "Orange"
+    demoText.style.fontSize = "16px"
+})
+
+let highlightSectionBtn = document.querySelector("#highlightsSectionsBtn");
+highlightSectionBtn.addEventListener("click", function(event){
+    //one
+    document.querySelector("#about").classList.toggle("section-highlight")
+    //two
+    
+//document.querySelectorAll("section").classList.toggle("section-highlight")
+
+document.querySelectorAll("section").forEach(function(section){
+    section.classList.toggle("section-highlight")
+})
+
+});
+
+//get the textbox with id nameInput
+
+document.querySelector("#nameOutput").addEventListener("input", function(event){
+
+    document.querySelector("#liveOut").textContent=  "hello" + document.querySelector("#nameOutput").value + "!";
+});
