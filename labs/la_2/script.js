@@ -189,6 +189,8 @@ console.log(aboutParagraph);
 aboutParagraph.textContent = "This text was changed!";
 aboutParagraph.style.color = "red";
 
+
+
 //setting/setter - updating the page from js
 const previewImage = document.querySelector("img");
 console.log(previewImage);
